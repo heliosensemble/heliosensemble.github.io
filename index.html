@@ -63,6 +63,7 @@
             margin-top: 20px;
             margin-left:4%;
             padding-bottom: 20px;
+            min-height: 200px;
         }
 
         .vid-list {
@@ -228,9 +229,10 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">About</h2>
                     <hr class="light">
-                    <p class="text" style="text-align:justify">The Helios Ensemble is a 29-person community vocal performance group based in Tucson, Arizona founded and directed by Benjamen Hansen. The group strives to cultivate vocal excellence and create choral radiance in the Tucson community.</p>
 
-                    <p class="text" style="text-align:justify">Benjamin Hansen is the founder and artistic director of The Helios Ensemble and the artistic director of the Faculty/Staff choir at the University of Arizona. Hansen received his BA from Yale, singing in “The Whiffenpoofs,” his MM in voice from The Catholic University of America, his MM in conducting from The College-Conservatory of Music at the University of Cincinnati, and is currently pursuing his doctorate in choral conducting at the University of Arizona. Hansen has studied conducting with Mark Gibson, Jerry Blackstone, Bruce Chamberlain, Fiora Contino, Robert Sund, Marguerite Brooks, Leo Nestor, Giselle Becker, Brett Scott, Earl Rivers, and Elizabeth Schauer. He was a Conducting Fellow at the Chorus America Conducting Symposium in 2010, Houston, TX, and he founded and directed the Washington Collegium, in Washington, D.C., conducting Howell’s Requiem and Poulenc’s Exultate Deo. Hansen was the director of choral activities at Cincinnati State College, directing the Cincinnati State Chorale’s performance of Whitacre’s Lux Aurumque, the national anthem at a Cincinnati Reds Game, and set of spirituals for the World Choir Games in 2012.</p>
+                    <p class="text" style="text-align:justify">The Helios Ensemble is a 30-person community vocal performance group based in Tucson, Arizona founded and directed by Benjamin Hansen. The group creates heartfelt, professional level performances through creative and uplifting group vocal technique. </p>
+
+                    <p class="text" style="text-align:justify">Benjamin Hansen is the founder and artistic director of The Helios Ensemble, the artistic director of the Faculty/Staff choir at the University of Arizona, and the director of music at the United Church of Christ, Good Shepherd, in Sahuarita, AZ.  Hansen received his BA from Yale, singing in “The Whiffenpoofs,” his MM in voice from The Catholic University of America, his MM in conducting from The College-Conservatory of Music at the University of Cincinnati, and is currently pursuing his doctorate in choral conducting at the University of Arizona. Hansen has studied conducting with Bruce Chamberlain, Elizabeth Schauer, Leo Nestor, Jerry Blackstone, Mark Gibson, Earl Rivers, Fiora Contino, and Robert Sund. He was a Conducting Fellow at the Chorus America Conducting Symposium in 2010, Houston, TX, and he founded and directed the Washington Collegium, in Washington, D.C., conducting Howell’s Requiem and Poulenc’s Exultate Deo. Hansen was the director of choral activities at Cincinnati State College, directing the Cincinnati State Chorale’s performance of Whitacre’s Lux Aurumque, the national anthem at a Cincinnati Reds Game, and set of spirituals for the World Choir Games in 2012. </p>
                 </div>
             </div>
         </div>
@@ -249,12 +251,37 @@
 
         <!-- THE YOUTUBE PLAYER -->
         <div class="vid-container">
-            <iframe id="vid_frame" src="https://youtube.com/embed/veVgnHWDsm8?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+            <iframe id="vid_frame" src="https://www.youtube.com/embed/tPzEilkQ_0w?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
         </div>
 
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/tPzEilkQ_0w?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
+                  <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/1ODz6RSeXwg?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/1ODz6RSeXwg/0.jpg"></div>
+                  <div class="desc">Music For Kings and Queens: My Bonnie Lass She Smileth by Morley</div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/QxRfk7qDxXM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/QxRfk7qDxXM/0.jpg"></div>
+                  <div class="desc">Music For Kings and Queens: Salve Regina by Herbert Howells</div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xn4LX0m0SvI?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/Xn4LX0m0SvI/0.jpg"></div>
+                  <div class="desc">Music for Kings and Queens: The King Shall Rejoice by Handel</div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/S9AWspW-TGM/0.jpg"></div>
+                  <div class="desc">A French Delight: Sing Joyfully</div>
+                </div>
                 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/veVgnHWDsm8?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/veVgnHWDsm8/0.jpg"></div>
@@ -341,12 +368,12 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="BachBMinorMass.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="AFrenchDelight.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
             </div>
