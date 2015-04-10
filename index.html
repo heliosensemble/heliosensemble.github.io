@@ -480,9 +480,9 @@
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Support the Helios Ensemble!</h2>
+                <h2>Donate</h2>
                 <hr>
-                <p> Contact Ben Hansen for more information or donate through Stripe below! </p>
+                <p> Thank you for supporting the Helios Ensemble! Please contact Ben Hansen for more information or donate through Stripe below. </p>
                 <form action="" method="POST">
                   <script
                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -501,7 +501,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Want to Join?</h2>
+                    <h2 class="section-heading">Join</h2>
                     <hr class="primary">
                     <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
                 </div>
