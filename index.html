@@ -216,7 +216,7 @@
             <div class="header-content-inner" style = "text-align:right">
                     <h1 style="font-size:65px">The Helios Ensemble</h1>
                     <hr style="border-width:0px">
-                    <h2 class="section-heading">Creating Choral Radiance</h2>
+                    <h2 class="section-heading" style="font-weight:700">Creating Choral Radiance</h2>
                     <hr style="border-width:0px">
                     <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
@@ -497,11 +497,11 @@
         </div>
     </aside>
 
-    <section id="contact more">
+    <section id="contact" class = "more">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Join</h2>
+                <div class="col-lg-8 col-lg-offset-2 text-center"style="color:black">
+                    <h2 class="section-heading" style="color:">Join</h2>
                     <hr class="primary">
                     <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
                 </div>

@@ -191,9 +191,9 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(sun.jpg);
-    background-position: center;
+    color: black;
+    background-image: url(../sun.jpg);
+    background-position:  bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
