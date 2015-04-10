@@ -193,7 +193,8 @@ header {
     text-align: center;
     color: black;
     background-image: url(../sun.jpg);
-    background-position:  bottom;
+    opacity: 0.5;
+    background-position: bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
