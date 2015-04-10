@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="sun2.png">
 
     <title>The Helios Ensemble</title>
 
@@ -293,15 +294,15 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-star-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Concert 2</h3>
-                        <h4>Date Unknown</h4>
+                        <h3>Bach's B minor Mass</h3>
+                        <h4>November 21st, 2014</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>A French Delight</h3>
-                        <h4>Date Unknown</h4>
+                        <h4>July 16th, 2014</h4>
                     </div>
                 </div>
             </div>
@@ -318,7 +319,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-justify">
                     <div class="service-box">
-                        <p class="text-muted">Need to remember the program.</p>
+                        <p class="text-muted">An immersive performance of Bach's "B Minor Mass", Herbert Howells' "A Hymn for St. Cecilia", and more.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-justify">
@@ -330,25 +331,24 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="#about" class="btn btn-xl page-scroll">Coming Soon!</a>
+                        <a class="btn btn-xl page-scroll">Coming Soon!</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="#about" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="#about" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="#about" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -455,12 +455,22 @@
             <div class="call-to-action">
                 <h2>Support the Helios Ensemble!</h2>
                 <hr>
-                <p> Contact Ben Hansen at benhansen@helios.edu for more information. </p>
+                <p> Contact Ben Hansen for more information or donate through Stripe below! </p>
+                <form action="" method="POST">
+                  <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+                    data-amount="2000"
+                    data-name="Demo Site"
+                    data-description="2 widgets ($20.00)"
+                    data-image="/128x128.png">
+                  </script>
+                </form>
             </div>
         </div>
     </aside>
 
-    <section id="contact">
+    <section id="contact more">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -474,7 +484,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">benhansen@helios.edu</a></p>
+                    <p><a href="mailto:your-email@your-domain.com">benhansen00@hotmail.com</a></p>
                 </div>
             </div>
         </div>
