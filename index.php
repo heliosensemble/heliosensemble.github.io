@@ -76,7 +76,7 @@
         .vid-item {
             display: block;
             width: 148px;
-            height: 148px;
+            height: 200px;
             float: left;
             margin: 0;
             padding: 10px;
@@ -95,7 +95,7 @@
         }
 
         .vid-item .desc {
-            color: #21A1D2;
+            color: #f05f40;
             font-size: 15px;
             margin-top:5px;
         }
@@ -113,7 +113,7 @@
         .arrow-left {
             color: #fff;
             position: absolute;
-            background: #777;
+            background: #f05f40;
             padding: 15px;
             left: -25px;
             top: -130px;
@@ -124,7 +124,7 @@
         .arrow-right {
             color: #fff;
             position: absolute;
-            background: #777;
+            background: #f05f40;
             padding: 15px;
             right: -25px;
             top: -130px;
@@ -251,14 +251,14 @@
 
         <!-- THE YOUTUBE PLAYER -->
         <div class="vid-container">
-            <iframe id="vid_frame" src="https://www.youtube.com/embed/tPzEilkQ_0w?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+            <iframe id="vid_frame" src="https://www.youtube.com/embed/oP2F22t2gXY?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
         </div>
 
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/tPzEilkQ_0w?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/oP2F22t2gXY?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
                   <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
                 </div>
@@ -392,7 +392,7 @@
                                     A Festival for Kings and Queens
                                 </div>
                                 <div class="project-name">
-                                    The Soprano Section performs in "The Call of Wisdom" by Will Todd.
+                                    The Soprano and Bass Sections perform in "The Call of Wisdom" by Will Todd.
                                 </div>
                             </div>
                         </div>
@@ -437,7 +437,7 @@
                                     A French Delight
                                 </div>
                                 <div class="project-name">
-                                    The Alto Section practices Byrd's "Sing Joyfully" 
+                                    The Alto and Tenor Sections practice Byrd's "Sing Joyfully" 
                                 </div>
                             </div>
                         </div>
