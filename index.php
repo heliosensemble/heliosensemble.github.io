@@ -336,7 +336,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-justify">
                     <div class="service-box">
-                        <p class="text-muted"> The Helios Ensemble is excited to present unacompanied vocal masterworks including Brahms’ Fest-und Gedenkspruche, Barber’s Reincarnations, and works by Whitacre, Menotti, Hennagin, and more.</p>
+                        <p class="text-muted"> The Helios Ensemble is excited to present unacompanied vocal masterworks including Brahms’ Fest-und Gedenkspruche, Barber’s Reincarnations, and Howells' tribute to John F. Kennedy, "Take Him Earth for Cherishing.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-justify">
@@ -483,16 +483,12 @@
                 <h2>Donate</h2>
                 <hr>
                 <p> Thank you for supporting the Helios Ensemble! Please contact Ben Hansen for more information or donate through Stripe below. </p>
-                <form action="" method="POST">
-                  <script
-                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                    data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-                    data-amount="2000"
-                    data-name="Demo Site"
-                    data-description="2 widgets ($20.00)"
-                    data-image="/128x128.png">
-                  </script>
-                </form>
+                <center>
+                    <div class="input-group">
+                        <input class="btn btn btn-primary btn-xl" style="width:118px;background-color:white;color:#f05f40;border-top-right-radius: 0;border-bottom-right-radius:0"type="number" id="custom-donation" placeholder="10.00" min="1.00" step="10.00 "/>
+                        <button style="border-top-left-radius:0;border-bottom-left-radius:0"class="btn btn-primary btn-xl" id="customButton">Donate</button>
+                    </div>
+                </center>
             </div>
         </div>
     </aside>
@@ -507,11 +503,11 @@
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>123-456-6789</p>
+                    <p>(202) 262-3634</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com">benhansen00@hotmail.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com" style="color:black">heliosensemble@aol.com</a></p>
                 </div>
             </div>
         </div>
@@ -535,6 +531,44 @@
                 }, 750);
             });
         });
+    </script>
+
+    <script type="text/javascript">
+        $('#custom-donation').on('change',function(){
+          // Stripe accepts payment amounts in cents so we have to convert dollars to cents by multiplying by 100
+         var amount = parseInt( $(this).val()*100);
+         $(".stripe-button").attr("data-amount", amount);
+         console.log($(".stripe-button").attr("data-amount", amount));
+        });
+    </script>
+
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+    
+    <script>
+      var handler = StripeCheckout.configure({
+        key: 'pk_test_Io06YaP6TWKQbAJULbQ7WFzG',
+        token: function(token) {
+          // Use the token to create the charge with a server-side script.
+          // You can access the token ID with `token.id`
+        }
+      });
+
+      $('#customButton').on('click', function(e) {
+        // Open Checkout with further options
+        console.log("hi!")
+        console.log($("#custom-donation").val());
+        handler.open({
+          name: 'Donate to The Helios Ensemble',
+          description: 'Thank you for your donation!',
+          amount: $("#custom-donation").val()*100
+        });
+        e.preventDefault();
+      });
+
+      // Close Checkout on page navigation
+      $(window).on('popstate', function() {
+        handler.close();
+      });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
