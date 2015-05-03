@@ -280,7 +280,7 @@
 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/S9AWspW-TGM/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The Call to Wisdom by Will Todd </div>
+                  <div class="desc">Music for Kings and Queens: The Call of Wisdom by Will Todd</div>
                 </div>
                 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/veVgnHWDsm8?autoplay=1&rel=0&showinfo=0&autohide=1'">
@@ -482,15 +482,25 @@
             <div class="call-to-action">
                 <h2>Donate</h2>
                 <hr>
-                <center>
-                <p style="max-width:750px"> Thank you for supporting the Helios Ensemble! To buy tickets or donate, please contact Ben Hansen for more information or access our Square Store below. </p>
+                <p> Thank you for supporting the Helios Ensemble! Please contact Ben Hansen for more information or donate through Stripe below. </p>
 
-                
+                <form action="" method="POST">
+                  <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_Io06YaP6TWKQbAJULbQ7WFzG"
+                    data-amount="2000"
+                    data-name="Demo Site"
+                    data-description="2 widgets ($20.00)"
+                    data-image="/128x128.png">
+                  </script>
+                </form>
+
+                <center>
                     <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Donate</a>
+                        <input class="btn btn btn-primary btn-xl" style="width:118px;background-color:white;color:#f05f40;border-top-right-radius: 0;border-bottom-right-radius:0"type="number" id="custom-donation" placeholder="10.00" min="1.00" step="10.00 "/>
+                        <button style="border-top-left-radius:0;border-bottom-left-radius:0"class="btn btn-primary btn-xl" id="customButton">Donate</button>
                     </div>
                 </center>
-
             </div>
         </div>
     </aside>
@@ -498,6 +508,15 @@
     <section id="contact" class="more">
         <div class="container">
             <div class="row">
+
+                <?php require_once('./config.php'); ?>
+
+                <form action="charge.php" method="post">
+                  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
+                          data-amount="5000" data-description="One year's subscription"></script>
+                </form>
+
                 <div class="col-lg-8 col-lg-offset-2 text-center"style="color:black">
                     <h2 class="section-heading" style="color:">Join</h2>
                     <hr class="primary">
@@ -514,22 +533,6 @@
             </div>
         </div>
     </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Member Store Link</h2>
-                <hr>
-                <p> Already a member? Access our Square Store for Music, CDs, and more! </p>
-                <center>
-                    <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Purchase Music</a>
-                    </div>
-                </center>
-            </div>
-        </div>
-    </aside>
-
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
