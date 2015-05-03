@@ -482,13 +482,15 @@
             <div class="call-to-action">
                 <h2>Donate</h2>
                 <hr>
-                <p> Thank you for supporting the Helios Ensemble! Please contact Ben Hansen for more information or donate through Stripe below. </p>
                 <center>
+                <p style="max-width:750px"> Thank you for supporting the Helios Ensemble! To buy tickets or donate, please contact Ben Hansen for more information or access our Square Store below. </p>
+
+                
                     <div class="input-group">
-                        <input class="btn btn btn-primary btn-xl" style="width:118px;background-color:white;color:#f05f40;border-top-right-radius: 0;border-bottom-right-radius:0"type="number" id="custom-donation" placeholder="10.00" min="1.00" step="10.00 "/>
-                        <button style="border-top-left-radius:0;border-bottom-left-radius:0"class="btn btn-primary btn-xl" id="customButton">Donate</button>
+                        <a href="https://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Donate</a>
                     </div>
                 </center>
+
             </div>
         </div>
     </aside>
@@ -512,6 +514,22 @@
             </div>
         </div>
     </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Member Store Link</h2>
+                <hr>
+                <p> Already a member? Access our Square Store for Music, CDs, and more! </p>
+                <center>
+                    <div class="input-group">
+                        <a href="https://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Purchase Music</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </aside>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
