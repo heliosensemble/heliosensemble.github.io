@@ -280,7 +280,7 @@
 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/S9AWspW-TGM/0.jpg"></div>
-                  <div class="desc">A French Delight: Sing Joyfully</div>
+                  <div class="desc">Music for Kings and Queens: The Call to Wisdom by Will Todd </div>
                 </div>
                 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/veVgnHWDsm8?autoplay=1&rel=0&showinfo=0&autohide=1'">
