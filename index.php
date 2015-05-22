@@ -485,10 +485,10 @@
                 <center>
                 <p style="max-width:750px"> Thank you for supporting the Helios Ensemble! To buy tickets or donate, please contact Ben Hansen for more information or access our Square Store below. </p>
 
-                
-                    <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Donate</a>
+                    <div class="service-box">
+                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
+                </div>
                 </center>
 
             </div>
