@@ -270,7 +270,7 @@
 
 
                 <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;margin-top:15px">Purchase Tickets Online</a>
+                        <a href="http://squareup.com/market/heliosensemble" style="">Purchase Tickets Online</a>
                 </div>
 
             </center>
@@ -621,7 +621,7 @@
     <script src="js/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script> 
+    <script src="js/creative.js"></script>
 
 </body>
 
