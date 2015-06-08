@@ -223,6 +223,64 @@
         </div>
     </header>
 
+
+    <section>
+
+    <div class="container" style="margin-top:10px;">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Upcoming Concert: "Take Him for Cherishing"</h2>
+                    <hr class="light" style = "margin-bottom:50px">
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-bottom:10px">
+            <div class = "col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3371.0341413169635!2d-111.026911!3d32.337793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x86d674c9677b8c49%3A0x648d42f6e0cf3090!2sChrist+the+King%2C+2800+W+Ina+Rd%2C+Tucson%2C+AZ+85741%2C+United+States!3m2!1d32.337793!2d-111.026911!5e0!3m2!1sen!2sus!4v1433134788898" width="540" height="500" frameborder="0" style="border:0"></iframe>
+            </div>
+            
+            <div class = "col-md-6">
+                <center>
+                <h2 class="heading" style="margin-top:0px">
+                    Presenting
+                </h2>
+
+                <h3> Howells' "Take Him, Earth, for Cherishing"</h3>
+
+                <h3> Brahms' "Fest-und Gedenksprüche"</h3>
+
+                <h3> Barber's "Reincarnations" </h3>
+
+                <h2 class="heading" style="margin-top:30px">
+                    Sunday, June 28, 2015
+                </h2>
+                
+                <h2 class="heading">
+                    7:00pm
+                </h2>
+
+                <h2 class="heading">Catalina United Methodist Church <h2>
+                <h2 style="font-size:20px">
+                    2700 E. Speedway Blvd
+                    Tucson, AZ  85716
+                </h2>
+                <h2 style="font-size:20px"> $15 tickets or two tickets for $25 </p>
+                </div>
+
+
+                <div class="input-group">
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;">Purchase Tickets Online</a>
+                </div>
+
+            </center>
+
+
+        </div>
+
+        <div style="margin-bottom:40px"><div>
+    </section>
+
+
     <section class="bg-primary" id="about">
         <div class="container" style="opacity:1.0">
             <div class="row">
@@ -237,6 +295,8 @@
             </div>
         </div>
     </section>
+
+        
 
     <section id="services">
         <div class="container">
@@ -308,7 +368,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-music wow bounceIn text-primary"></i>
                         <h3>Upcoming</h3>
-                        <h4>June 27th, 2015</h4>
+                        <h4>June 28th, 2015</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -485,10 +545,10 @@
                 <center>
                 <p style="max-width:750px"> Thank you for supporting the Helios Ensemble! To buy tickets or donate, please contact Ben Hansen for more information or access our Square Store below. </p>
 
-                    <div class="service-box">
-                        <a href="March 2015 Program.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
+                
+                    <div class="input-group">
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Donate</a>
                     </div>
-                </div>
                 </center>
 
             </div>
