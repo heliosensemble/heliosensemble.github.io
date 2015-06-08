@@ -268,11 +268,6 @@
                 <h2 style="font-size:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
                 </div>
 
-
-                <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;margin-top:15px">Purchase Tickets Online</a>
-                </div>
-
             </center>
 
 
@@ -280,6 +275,10 @@
 
         <div style="margin-bottom:40px"><div>
     </section>
+
+    <div class="input-group" style="margin-bottom:20px">
+            <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:575px">Purchase Tickets Online</a>
+    </div>
 
 
     <section class="bg-primary" id="about">
@@ -610,44 +609,6 @@
                 }, 750);
             });
         });
-    </script>
-
-    <script type="text/javascript">
-        $('#custom-donation').on('change',function(){
-          // Stripe accepts payment amounts in cents so we have to convert dollars to cents by multiplying by 100
-         var amount = parseInt( $(this).val()*100);
-         $(".stripe-button").attr("data-amount", amount);
-         console.log($(".stripe-button").attr("data-amount", amount));
-        });
-    </script>
-
-    <script src="https://checkout.stripe.com/checkout.js"></script>
-    
-    <script>
-      var handler = StripeCheckout.configure({
-        key: 'pk_test_Io06YaP6TWKQbAJULbQ7WFzG',
-        token: function(token) {
-          // Use the token to create the charge with a server-side script.
-          // You can access the token ID with `token.id`
-        }
-      });
-
-      $('#customButton').on('click', function(e) {
-        // Open Checkout with further options
-        console.log("hi!")
-        console.log($("#custom-donation").val());
-        handler.open({
-          name: 'Donate to The Helios Ensemble',
-          description: 'Thank you for your donation!',
-          amount: $("#custom-donation").val()*100
-        });
-        e.preventDefault();
-      });
-
-      // Close Checkout on page navigation
-      $(window).on('popstate', function() {
-        handler.close();
-      });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
