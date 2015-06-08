@@ -264,12 +264,12 @@
                     2700 E. Speedway Blvd
                     Tucson, AZ  85716
                 </h2>
-                <h2 style="font-size:20px"> $15 tickets or two tickets for $25 </p>
+                <h2 style="font-size:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
                 </div>
 
 
                 <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;">Purchase Tickets Online</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;margin-top:15px">Purchase Tickets Online</a>
                 </div>
 
             </center>
