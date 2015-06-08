@@ -270,7 +270,7 @@
 
 
                 <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;margin-top:15px">Purchase Tickets Online</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:15%;margin-top:15px">Purchase Tickets Online (Open in New Window/Tab)</a>
                 </div>
 
             </center>
