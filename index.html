@@ -236,7 +236,8 @@
         </div>
         <div class="container" style="margin-bottom:10px">
             <div class = "col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3371.0341413169635!2d-111.026911!3d32.337793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x86d674c9677b8c49%3A0x648d42f6e0cf3090!2sChrist+the+King%2C+2800+W+Ina+Rd%2C+Tucson%2C+AZ+85741%2C+United+States!3m2!1d32.337793!2d-111.026911!5e0!3m2!1sen!2sus!4v1433134788898" width="540" height="500" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.8329073346094!2d-110.93185629999999!3d32.2356653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d671b6b1b49dad%3A0xc3cd9ec61c2d47dd!2s2700+E+Speedway+Blvd%2C+Tucson%2C+AZ+85716!5e0!3m2!1sen!2sus!4v1433739792961" width="540" height="500" frameborder="0" style="border:0;border-radius:4px"></iframe>
+
             </div>
             
             <div class = "col-md-6">
