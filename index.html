@@ -268,6 +268,11 @@
                 <h2 style="font-size:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
                 </div>
 
+
+                <div class="input-group">
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-right:35%;margin-top:15px">Purchase Tickets Online</a>
+                </div>
+
             </center>
 
 
@@ -275,10 +280,6 @@
 
         <div style="margin-bottom:40px"><div>
     </section>
-
-    <div class="input-group" style="margin-bottom:20px">
-            <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:575px">Purchase Tickets Online</a>
-    </div>
 
 
     <section class="bg-primary" id="about">
