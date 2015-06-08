@@ -418,7 +418,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a class="btn btn-xl page-scroll">Coming Soon!</a>
+                        <a href="takehimforcherishing.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
