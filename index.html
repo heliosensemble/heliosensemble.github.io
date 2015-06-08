@@ -548,7 +548,7 @@
 
                 
                     <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Donate</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Donate</a>
                     </div>
                 </center>
 
@@ -584,7 +584,7 @@
                 <p> Already a member? Access our Square Store for Music, CDs, and more! </p>
                 <center>
                     <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl">Purchase Music</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Purchase Music</a>
                     </div>
                 </center>
             </div>
