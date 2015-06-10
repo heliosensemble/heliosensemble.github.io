@@ -229,7 +229,7 @@
     <div class="container" style="margin-top:10px;">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Upcoming Concert: "Take Him for Cherishing"</h2>
+                    <h2 class="section-heading">Upcoming Concert: "Reincarnations"</h2>
                     <hr class="light" style = "margin-bottom:50px">
                 </div>
             </div>
@@ -253,14 +253,14 @@
                 <h3> Barber's "Reincarnations" </h3>
 
                 <h2 class="heading" style="margin-top:30px">
-                    Sunday, June 28, 2015
+                    Sunday, June 28, 2015 @ 7:00pm
                 </h2>
                 
                 <h2 class="heading">
-                    7:00pm
+                    Monday, June 29, 2015 @ 7:30pm
                 </h2>
 
-                <h2 class="heading">Catalina United Methodist Church <h2>
+                <h3>Catalina United Methodist Church </h3>
                 <h2 style="font-size:20px">
                     2700 E. Speedway Blvd
                     Tucson, AZ  85716
@@ -368,8 +368,8 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-music wow bounceIn text-primary"></i>
-                        <h3>Upcoming</h3>
-                        <h4>June 28th, 2015</h4>
+                        <h3>Reincarnations</h3>
+                        <h4>June 28th & 29th, 2015</h4>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -397,7 +397,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-justify">
                     <div class="service-box">
-                        <p class="text-muted"> The Helios Ensemble is excited to present unacompanied vocal masterworks including Brahms’ Fest-und Gedenkspruche, Barber’s Reincarnations, and Howells' tribute to John F. Kennedy, "Take Him Earth for Cherishing.</p>
+                        <p class="text-muted"> The Helios Ensemble is excited to present unacompanied vocal masterworks including Brahms’ "Fest-und Gedenksprüche", Barber’s "Reincarnations", and Howells' tribute to John F. Kennedy, "Take Him Earth for Cherishing".</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-justify">
