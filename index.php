@@ -229,49 +229,45 @@
     <div class="container" style="margin-top:10px;">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Upcoming Concert: "Reincarnations"</h2>
-                    <hr class="light" style = "margin-bottom:50px">
-                </div>
-            </div>
-        </div>
-        <div class="container" style="margin-bottom:10px">
-            <div class = "col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.8329073346094!2d-110.93185629999999!3d32.2356653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86d671b6b1b49dad%3A0xc3cd9ec61c2d47dd!2s2700+E+Speedway+Blvd%2C+Tucson%2C+AZ+85716!5e0!3m2!1sen!2sus!4v1433739792961" width="540" height="500" frameborder="0" style="border:0;border-radius:4px"></iframe>
+                    <h1 class="section-heading" style="font-size:40px">Upcoming Concert</h1>
+                    <hr class="dark">
 
-            </div>
+                    <h2 class="section-heading" style="font-size:40px;margin-top:30px">Reincarnations</h2>
+
+                    <h3 style="margin-top:30px"> Howells' "Take Him, Earth, for Cherishing"</h3>
+
+                    <h3> Brahms' "Fest-und Gedenksprüche"</h3>
+
+                    <h3> Barber's "Reincarnations" </h3>
+
+                <h2 style="margin-top:50px"> Sunday, June 28, 2015 @ 7:00pm </h2>
             
-            <div class = "col-md-6">
-                <center>
-                <h2 class="heading" style="margin-top:0px">
-                    Presenting
-                </h2>
+                <h3 >Catalina United Methodist Church </h3>
+                <h3 style="font-size:20px">
+                    2700 E. Speedway Blvd
+                    Tucson, AZ  85716
+                </h3>
 
-                <h3> Howells' "Take Him, Earth, for Cherishing"</h3>
-
-                <h3> Brahms' "Fest-und Gedenksprüche"</h3>
-
-                <h3> Barber's "Reincarnations" </h3>
-
-                <h2 class="heading" style="margin-top:30px">
-                    Sunday, June 28, 2015 @ 7:00pm
-                </h2>
-                
-                <h2 class="heading">
+                <h2 class="heading" style = "margin-top:30px">
                     Monday, June 29, 2015 @ 7:30pm
                 </h2>
 
-                <h3>Catalina United Methodist Church </h3>
+                <h3> Christ the King Episcopal Church</h3>
                 <h2 style="font-size:20px">
-                    2700 E. Speedway Blvd
-                    Tucson, AZ  85716
+                    2800 W Ina Rd, Tucson, AZ
                 </h2>
-                <h2 style="font-size:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
+
                 </div>
 
-
-                <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" style="margin-left:65%;margin-top:15px"  target="_blank">Purchase Tickets Online</a>
-                </div>
+            </div>
+        </div>
+        <div class = "row" style="margin-top:30px">
+            <center>
+            <h2 style="font-size:20px;margin-bottom:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
+            <div class="input-group">
+                    <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl"  target="_blank">Purchase Tickets Online</a>
+            </div>
+        </div>
 
             </center>
 
@@ -419,7 +415,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a href="takehimforcherishing.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
+                        <a href="reincarnations.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
