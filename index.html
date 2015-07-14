@@ -232,15 +232,16 @@
                     <h1 class="section-heading" style="font-size:40px">Upcoming Concert</h1>
                     <hr class="dark">
 
-                    <h2 class="section-heading" style="font-size:40px;margin-top:30px">Reincarnations</h2>
+                     <h2 class="section-heading" style="font-size:40px;margin-top:30px"> Haydn's </h2>
 
-                    <h3 style="margin-top:30px"> Howells' "Take Him, Earth, for Cherishing"</h3>
+                     <h2> <i> Lord Nelson Mass </i> </h2>
 
-                    <h3> Brahms' "Fest-und Gedenksprüche"</h3>
+                     <h2 class="section-heading" style="font-size:40px;margin-top:30px"> Whitacre's </h2>
+                     <h2> <i> Go, Lovely Rose </i> </h3>
 
-                    <h3> Barber's "Reincarnations" </h3>
+                    <h2> <i> Hope, Faith, Life, Love </i></h2>
 
-                <h2 style="margin-top:50px"> Sunday, June 28, 2015 @ 7:00pm </h2>
+                <h2 style="margin-top:50px"> Sunday, November 22nd @ 3:00 p.m  </h2>
             
                 <h3 >Catalina United Methodist Church </h3>
                 <h3 style="font-size:20px">
@@ -248,32 +249,10 @@
                     Tucson, AZ  85716
                 </h3>
 
-                <h2 class="heading" style = "margin-top:30px">
-                    Monday, June 29, 2015 @ 7:30pm
-                </h2>
-
-                <h3> Christ the King Episcopal Church</h3>
-                <h2 style="font-size:20px">
-                    2800 W Ina Rd, Tucson, AZ
-                </h2>
-
                 </div>
 
             </div>
         </div>
-        <div class = "row" style="margin-top:30px">
-            <center>
-            <h2 style="font-size:20px;margin-bottom:20px"> $15 tickets | $25 for two tickets | $5 student tickets</h2>
-            <div class="input-group">
-                    <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl"  target="_blank">Purchase Tickets Online</a>
-            </div>
-        </div>
-
-            </center>
-
-
-        </div>
-
         <div style="margin-bottom:40px"><div>
     </section>
 
@@ -308,31 +287,31 @@
 
         <!-- THE YOUTUBE PLAYER -->
         <div class="vid-container">
-            <iframe id="vid_frame" src="https://www.youtube.com/embed/oP2F22t2gXY?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+            <iframe id="vid_frame" src="https://www.youtube.com/embed/Xu13YkyKMhw?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
         </div>
 
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/oP2F22t2gXY?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
-                  <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
+                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xu13YkyKMhw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/Xu13YkyKMhw/0.jpg"></div>
+                  <div class="desc">Mary Hynes from Barber's  Reincarnations</div>
                 </div>
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/1ODz6RSeXwg?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/1ODz6RSeXwg/0.jpg"></div>
-                  <div class="desc">Music For Kings and Queens: My Bonnie Lass She Smileth by Morley</div>
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/hQNuWiz1NzY?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/hQNuWiz1NzY/0.jpg"></div>
+                  <div class="desc">I Sat Down</div>
                 </div>
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/QxRfk7qDxXM?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/QxRfk7qDxXM/0.jpg"></div>
-                  <div class="desc">Music For Kings and Queens: Salve Regina by Herbert Howells</div>
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/nRlpYZgcSxM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/nRlpYZgcSxM/0.jpg"></div>
+                  <div class="desc">Wo ist ein from Brahms' Fest-und Gedensprüche</div>
                 </div>
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xn4LX0m0SvI?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/Xn4LX0m0SvI/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The King Shall Rejoice by Handel</div>
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/-zf7fiy5Luo?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/-zf7fiy5Luo/0.jpg"></div>
+                  <div class="desc">Take Him, Earth, For Cherishing</div>
                 </div>
 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
@@ -340,14 +319,14 @@
                   <div class="desc">Music for Kings and Queens: The Call to Wisdom by Will Todd </div>
                 </div>
                 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/veVgnHWDsm8?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/veVgnHWDsm8/0.jpg"></div>
-                  <div class="desc">A French Delight: Sing Joyfully</div>
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/oP2F22t2gXY?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
+                  <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
                 </div>
-              
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/kNdeZ-w0o3U?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/kNdeZ-w0o3U/0.jpg"></div>
-                  <div class="desc">A French Delight: I Sat Down</div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xn4LX0m0SvI?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/Xn4LX0m0SvI/0.jpg"></div>
+                  <div class="desc">Music for Kings and Queens: The King Shall Rejoice by Handel</div>
                 </div>
         </div>
 
@@ -555,23 +534,10 @@
     <section id="contact" class="more">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center"style="color:black">
-                    <h2 class="section-heading" style="color:">Join</h2>
-                    <hr class="primary">
-                    <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>(202) 262-3634</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com" style="color:black">heliosensemble@aol.com</a></p>
-                </div>
             </div>
         </div>
     </section>
-
+    
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">

@@ -189,9 +189,9 @@ header {
 .more {
     position: relative;
     width: 100%;
-    min-height: auto;
+    height:100%;
     color: black;
-    background-image: url(../sun.jpg);
+    background-image: url(../clipped_promotional_image.png);
     background-position: bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
