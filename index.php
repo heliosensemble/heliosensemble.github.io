@@ -287,16 +287,16 @@
 
         <!-- THE YOUTUBE PLAYER -->
         <div class="vid-container">
-            <iframe id="vid_frame" src="https://www.youtube.com/embed/Xu13YkyKMhw?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+            <iframe id="vid_frame" src="https://youtube.com/embed/nRlpYZgcSxM?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
         </div>
 
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
 
-                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xu13YkyKMhw?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/Xu13YkyKMhw/0.jpg"></div>
-                  <div class="desc">Mary Hynes from Barber's  Reincarnations</div>
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/nRlpYZgcSxM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/nRlpYZgcSxM/0.jpg"></div>
+                  <div class="desc">Wo ist ein from Brahms' Fest-und Gedensprüche</div>
                 </div>
 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/hQNuWiz1NzY?autoplay=1&rel=0&showinfo=0&autohide=1'">
@@ -304,14 +304,14 @@
                   <div class="desc">I Sat Down</div>
                 </div>
 
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/nRlpYZgcSxM?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/nRlpYZgcSxM/0.jpg"></div>
-                  <div class="desc">Wo ist ein from Brahms' Fest-und Gedensprüche</div>
-                </div>
-
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/-zf7fiy5Luo?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/-zf7fiy5Luo/0.jpg"></div>
                   <div class="desc">Take Him, Earth, For Cherishing</div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xu13YkyKMhw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/Xu13YkyKMhw/0.jpg"></div>
+                  <div class="desc">Mary Hynes from Barber's  Reincarnations</div>
                 </div>
 
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
