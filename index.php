@@ -531,9 +531,29 @@
         </div>
     </aside>
 
-    <section id="contact" class="more">
+    <section id="contact" class="flier">
         <div class="container">
             <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Join</h2>
+                    <hr class="light">
+                    <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>(202) 262-3634</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:your-email@your-domain.com" style="color:white">heliosensemble@aol.com</a></p>
+                </div>
             </div>
         </div>
     </section>
