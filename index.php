@@ -169,6 +169,15 @@
             }
         }
 
+        .poster {
+            display:block;
+            margin:auto;
+        }
+
+        .bg-black{
+            color:black;
+        }
+
     </style>
 
 </head>
@@ -223,39 +232,14 @@
         </div>
     </header>
 
-
-    <section>
-
-    <div class="container" style="margin-top:10px;">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="section-heading" style="font-size:40px">Upcoming Concert</h1>
-                    <hr class="dark">
-
-                     <h2 class="section-heading" style="font-size:40px;margin-top:30px"> Haydn's </h2>
-
-                     <h2> <i> Lord Nelson Mass </i> </h2>
-
-                     <h2 class="section-heading" style="font-size:40px;margin-top:30px"> Whitacre's </h2>
-                     <h2> <i> Go, Lovely Rose </i> </h3>
-
-                    <h2> <i> Hope, Faith, Life, Love </i></h2>
-
-                <h2 style="margin-top:50px"> Sunday, November 22nd @ 3:00 p.m  </h2>
-            
-                <h3 >Catalina United Methodist Church </h3>
-                <h3 style="font-size:20px">
-                    2700 E. Speedway Blvd
-                    Tucson, AZ  85716
-                </h3>
-
-                </div>
-
+    <section class="bg-dark">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="font-size:40px;margin-bottom:40px">Upcoming Concerts </h1>
             </div>
         </div>
-        <div style="margin-bottom:40px"><div>
+        <img src="helios_concert_poster.jpg" class="poster"/>
     </section>
-
 
     <section class="bg-primary" id="about">
         <div class="container" style="opacity:1.0">
@@ -513,37 +497,11 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Donate</h2>
-                <hr>
-                <center>
-                <p style="max-width:750px"> Thank you for supporting the Helios Ensemble! To buy tickets or donate, please contact Ben Hansen for more information or access our Square Store below. </p>
-
-                
-                    <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Donate</a>
-                    </div>
-                </center>
-
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact" class="flier">
+    <section id="contact" class="bg-light" style="padding-bottom:50px;padding-top:50px;">
         <div class="container">
-            <div class="row">
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="bg-primary">
-        <div class="container">
-            <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Join</h2>
-                    <hr class="light">
+                    <hr>
                     <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
@@ -552,23 +510,48 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com" style="color:white">heliosensemble@aol.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com" style="color:black">heliosensemble@aol.com</a></p>
                 </div>
-            </div>
         </div>
     </section>
     
-    <aside class="bg-dark">
+    <aside class="bg-primary">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Member Store Link</h2>
-                <hr>
+                <hr class="light">
                 <p> Already a member? Access our Square Store for Music, CDs, and more! </p>
                 <center>
                     <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Purchase Music</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-light btn-xl" target="_blank">Purchase Music</a>
                     </div>
                 </center>
+            </div>
+        </div>
+    </aside>
+
+     <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Donate</h2>
+                <hr>
+                <center>
+                <p style="max-width:750px"> Interested in supporting the Helios Ensemble? Please contact Treasurer Jo-Ann Marks at her cell below or access our Square site through the Donate button. Thank you! </p>
+                    <div class = "row">
+                        <div class="col-lg-4 col-lg-offset-2 text-center">
+                            <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                            <p>(520) 591-1504</p>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                            <p><a href="mailto:your-email@your-domain.com" style="color:white">heliosensemble@aol.com</a></p>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Donate</a>
+                    </div>
+                </center>
+
             </div>
         </div>
     </aside>

@@ -417,6 +417,15 @@ fieldset[disabled] .btn-default.active {
     transition: all .35s;
 }
 
+.btn-light {
+    border-color: #fff;
+    color: #f05f40;
+    background-color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
