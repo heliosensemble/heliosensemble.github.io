@@ -25,171 +25,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="httpss://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="httpss://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <style type="text/css">
-
-        /*  VIDEO PLAYER CONTAINER
-        ############################### */
-        .vid-container {
-            position: relative;
-            padding-bottom: 52%;
-            padding-top: 30px; 
-            height: 0; 
-        }
-         
-        .vid-container iframe,
-        .vid-container object,
-        .vid-container embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-
-        /*  VIDEOS PLAYLIST 
-        ############################### */
-        .vid-list-container {
-            width: 92%;
-            overflow: hidden;
-            margin-top: 20px;
-            margin-left:4%;
-            padding-bottom: 20px;
-            min-height: 200px;
-        }
-
-        .vid-list {
-            width: 1344px;
-            position: relative;
-            top:0;
-            left: 0;
-        }
-
-        .vid-item {
-            display: block;
-            width: 148px;
-            height: 200px;
-            float: left;
-            margin: 0;
-            padding: 10px;
-        }
-
-        .thumb {
-            /*position: relative;*/
-            overflow:hidden;
-            height: 84px;
-        }
-
-        .thumb img {
-            width: 100%;
-            position: relative;
-            top: -13px;
-        }
-
-        .vid-item .desc {
-            color: #f05f40;
-            font-size: 15px;
-            margin-top:5px;
-        }
-
-        .vid-item:hover {
-            background: #eee;
-            cursor: pointer;
-        }
-
-        .arrows {
-            position:relative;
-            width: 100%;
-        }
-
-        .arrow-left {
-            color: #fff;
-            position: absolute;
-            background: #f05f40;
-            padding: 15px;
-            left: -25px;
-            top: -130px;
-            z-index: 99;
-            cursor: pointer;
-        }
-
-        .arrow-right {
-            color: #fff;
-            position: absolute;
-            background: #f05f40;
-            padding: 15px;
-            right: -25px;
-            top: -130px;
-            z-index:100;
-            cursor: pointer;
-        }
-
-        .arrow-left:hover {
-            background: #CC181E;
-        }
-
-        .arrow-right:hover {
-            background: #CC181E;
-        }
-
-
-        @media (max-width: 624px) {
-            body {
-                margin: 15px;
-            }
-            .caption {
-                margin-top: 40px;
-            }
-            .vid-list-container {
-                padding-bottom: 20px;
-            }
-
-            /* reposition left/right arrows */
-            .arrows {
-                position:relative;
-                margin: 0 auto;
-                width:96px;
-            }
-            .arrow-left {
-                left: 0;
-                top: -17px;
-            }
-
-            .arrow-right {
-                right: 0;
-                top: -17px;
-            }
-        }
-
-        .poster {
-            display:block;
-            margin:auto;
-        }
-
-        .bg-black{
-            color:black;
-        }
-
-        .support-text{
-            padding-top:10px;
-            padding-bottom:10px;
-        }
-
-        .support-bullet{
-            padding-top:5px;
-            padding-bottom:5px;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="video-player.css" type="text/css">
 </head>
 
 
@@ -303,7 +139,20 @@
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/gZnekNON394?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/gZnekNON394/0.jpg"></div>
+                  <div class="desc"> Go Lovely Rose by Eric Whitacre </div>
+                </div>
+                
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/3xbBLc0HOOE?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/3xbBLc0HOOE/0.jpg"></div>
+                  <div class="desc">Quonium from Haydn's "Lord Nelson" Mass</div>
+                </div>
 
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/-TNy83iw8XE?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/-TNy83iw8XE/0.jpg"></div>
+                  <div class="desc">Benedictus/Osanna from Haydn's "Lord Nelson" Mass</div>
+                </div>
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/nRlpYZgcSxM?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/nRlpYZgcSxM/0.jpg"></div>
                   <div class="desc">Wo ist ein from Brahms' Fest-und Gedensprüche</div>
@@ -322,21 +171,6 @@
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xu13YkyKMhw?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/Xu13YkyKMhw/0.jpg"></div>
                   <div class="desc">Mary Hynes from Barber's  Reincarnations</div>
-                </div>
-
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/S9AWspW-TGM/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The Call to Wisdom by Will Todd </div>
-                </div>
-                
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/oP2F22t2gXY?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
-                  <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
-                </div>
-
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xn4LX0m0SvI?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/Xn4LX0m0SvI/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The King Shall Rejoice by Handel</div>
                 </div>
         </div>
 
