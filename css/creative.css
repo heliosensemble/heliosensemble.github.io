@@ -418,7 +418,7 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-light {
-    border-color: #fff;
+    border-color: #f05f40;
     color: #f05f40;
     background-color: #fff;
     -webkit-transition: all .35s;
