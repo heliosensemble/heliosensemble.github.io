@@ -25,161 +25,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="httpss://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="httpss://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <style type="text/css">
-
-        /*  VIDEO PLAYER CONTAINER
-        ############################### */
-        .vid-container {
-            position: relative;
-            padding-bottom: 52%;
-            padding-top: 30px; 
-            height: 0; 
-        }
-         
-        .vid-container iframe,
-        .vid-container object,
-        .vid-container embed {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-
-        /*  VIDEOS PLAYLIST 
-        ############################### */
-        .vid-list-container {
-            width: 92%;
-            overflow: hidden;
-            margin-top: 20px;
-            margin-left:4%;
-            padding-bottom: 20px;
-            min-height: 200px;
-        }
-
-        .vid-list {
-            width: 1344px;
-            position: relative;
-            top:0;
-            left: 0;
-        }
-
-        .vid-item {
-            display: block;
-            width: 148px;
-            height: 200px;
-            float: left;
-            margin: 0;
-            padding: 10px;
-        }
-
-        .thumb {
-            /*position: relative;*/
-            overflow:hidden;
-            height: 84px;
-        }
-
-        .thumb img {
-            width: 100%;
-            position: relative;
-            top: -13px;
-        }
-
-        .vid-item .desc {
-            color: #f05f40;
-            font-size: 15px;
-            margin-top:5px;
-        }
-
-        .vid-item:hover {
-            background: #eee;
-            cursor: pointer;
-        }
-
-        .arrows {
-            position:relative;
-            width: 100%;
-        }
-
-        .arrow-left {
-            color: #fff;
-            position: absolute;
-            background: #f05f40;
-            padding: 15px;
-            left: -25px;
-            top: -130px;
-            z-index: 99;
-            cursor: pointer;
-        }
-
-        .arrow-right {
-            color: #fff;
-            position: absolute;
-            background: #f05f40;
-            padding: 15px;
-            right: -25px;
-            top: -130px;
-            z-index:100;
-            cursor: pointer;
-        }
-
-        .arrow-left:hover {
-            background: #CC181E;
-        }
-
-        .arrow-right:hover {
-            background: #CC181E;
-        }
-
-
-        @media (max-width: 624px) {
-            body {
-                margin: 15px;
-            }
-            .caption {
-                margin-top: 40px;
-            }
-            .vid-list-container {
-                padding-bottom: 20px;
-            }
-
-            /* reposition left/right arrows */
-            .arrows {
-                position:relative;
-                margin: 0 auto;
-                width:96px;
-            }
-            .arrow-left {
-                left: 0;
-                top: -17px;
-            }
-
-            .arrow-right {
-                right: 0;
-                top: -17px;
-            }
-        }
-
-        .poster {
-            display:block;
-            margin:auto;
-        }
-
-        .bg-black{
-            color:black;
-        }
-
-    </style>
-
+    <link rel="stylesheet" href="video-player.css" type="text/css">
 </head>
 
 
@@ -201,17 +47,26 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    
+                    <li>
+                        <a class="page-scroll" href="#concerts">Upcoming Concerts</a>
+                    </li>
+
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
+                    
                     <li>
-                        <a class="page-scroll" href="#services">Listen</a>
+                        <a class="page-scroll" href="#listen">Listen</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Donate</a>
+                        <a class="page-scroll" href="#join">Join</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Join</a>
+                        <a class="page-scroll" href="#members">Member Store Link</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#support">Support Helios</a>
                     </li>
                 </ul>
             </div>
@@ -226,19 +81,46 @@
                     <h1 style="font-size:65px">The Helios Ensemble</h1>
                     <hr style="border-width:0px">
                     <h2 class="section-heading" style="font-weight:700">Creating Choral Radiance</h2>
-                    <hr style="border-width:0px">
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+
+                    <a href="https://www.facebook.com/helioschoralradiance" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social" style="color:white" ></i></a>
+                    <a href="https://www.youtube.com/user/bengiha/videos" target="_blank"><i id="social-gp" class="fa fa-youtube-square fa-3x social" style="color:white"></i></a>
+                    <a href="mailto:benhansen00@hotmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social" style="color:white"></i></a>
             </div>
         </div>
     </header>
 
-    <section class="bg-dark">
+    
+
+
+    <section class="bg-dark" id = "concerts">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading" style="font-size:40px;margin-bottom:40px">Upcoming Concerts </h1>
+                <h2 class="section-heading" style="font-size:40px;margin-bottom:40px">Come to Shakespeare Shangri-la! </h2>
             </div>
         </div>
-        <img src="helios_concert_poster.jpg" class="poster"/>
+
+        <div class = "row">
+            <center>
+                <h2 class="section-heading" style="font-size:40px;margin-bottom:40px;margin-top:40px">Concert Dates </h2>
+
+                <h2 class="text" style = "margin-bottom:15px">
+                Saturday, April 23rd, 7:00 p.m. 
+                </h2>
+                <h3 class="text" style = "margin-bottom:30px">
+                Good Shepherd United Church of Christ, 17750 S La Canada Dr., Sahuarita
+                </h3>
+                <h2 class="text" style = "margin-bottom:15px">
+                Sunday, April 24th, 3:00 p.m. 
+                </h2>
+                <h3 class="text" style = "margin-bottom:30px">
+                Catalina United Methodist Church, 2700 E Speedway Blvd, Tucson
+                </h3>
+
+                </div>
+
+            </center>
+         </div>
+
     </section>
 
     <section class="bg-primary" id="about">
@@ -258,7 +140,7 @@
 
         
 
-    <section id="services">
+    <section id="listen">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -271,13 +153,26 @@
 
         <!-- THE YOUTUBE PLAYER -->
         <div class="vid-container">
-            <iframe id="vid_frame" src="https://youtube.com/embed/nRlpYZgcSxM?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+            <iframe id="vid_frame" src="https://youtube.com/embed/gZnekNON394?autoplay=0&rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
         </div>
 
         <!-- THE PLAYLIST -->
         <div class="vid-list-container">
             <div class="vid-list">
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/gZnekNON394?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/gZnekNON394/0.jpg"></div>
+                  <div class="desc"> Go Lovely Rose by Eric Whitacre </div>
+                </div>
+                
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/3xbBLc0HOOE?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/3xbBLc0HOOE/0.jpg"></div>
+                  <div class="desc">Quonium from Haydn's "Lord Nelson" Mass</div>
+                </div>
 
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/-TNy83iw8XE?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="thumb"><img src="https://img.youtube.com/vi/-TNy83iw8XE/0.jpg"></div>
+                  <div class="desc">Benedictus/Osanna from Haydn's "Lord Nelson" Mass</div>
+                </div>
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/nRlpYZgcSxM?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/nRlpYZgcSxM/0.jpg"></div>
                   <div class="desc">Wo ist ein from Brahms' Fest-und Gedensprüche</div>
@@ -297,21 +192,6 @@
                   <div class="thumb"><img src="https://img.youtube.com/vi/Xu13YkyKMhw/0.jpg"></div>
                   <div class="desc">Mary Hynes from Barber's  Reincarnations</div>
                 </div>
-
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/S9AWspW-TGM?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/S9AWspW-TGM/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The Call to Wisdom by Will Todd </div>
-                </div>
-                
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/oP2F22t2gXY?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/tPzEilkQ_0w/0.jpg"></div>
-                  <div class="desc">Music For Kings and Queens: Come Again by John Dowland</div>
-                </div>
-
-                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Xn4LX0m0SvI?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <div class="thumb"><img src="https://img.youtube.com/vi/Xn4LX0m0SvI/0.jpg"></div>
-                  <div class="desc">Music for Kings and Queens: The King Shall Rejoice by Handel</div>
-                </div>
         </div>
 
         <!-- LEFT AND RIGHT ARROWS -->
@@ -321,12 +201,86 @@
         </div>
 
     </div>
-    <hr style="margin-top:50px">
+
+    <div class = "row" style="margin-top:50px">
+        <center>
+            <div class="input-group" style = "margin-bottom:50px">
+                    <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Purchase CDs & DVDs through Square </a>
+            </div>
+        </center>
+     </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-music wow bounceIn text-primary"></i>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-music wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3 style = "font-size:23px">Shakespeare Shangri-La</h3>
+                        <h4>April 23rd & 24th, 2015</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-sun-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Of Love and Triumph</h3>
+                        <h4>November 21st & 22nd, 2015</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <p class="text-muted">Upcoming!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-justify">
+                    <div class="service-box">
+                        <p class="text-muted"> Featuring Haydn's Lord Nelson Mass and Poulenc's Sept Chansons.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a class="btn btn-xl page-scroll" style="border-color:#f05f40">Upcoming!</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="ofloveandtriumph.pdf" class="btn btn-primary btn-xl page-scroll">Program</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style = "margin-top:50px">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-tint wow bounceIn text-primary"></i>
                         <h3>Reincarnations</h3>
                         <h4>June 28th & 29th, 2015</h4>
                     </div>
@@ -397,7 +351,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
+
     </section>
 
     <section class="no-padding" id="portfolio">
@@ -420,14 +376,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="Helios8.jpg" class="img-responsive" alt="">
+                        <img src="group-fall2015.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    A French Delight
+                                    Of Love and Triumph
                                 </div>
                                 <div class="project-name">
-                                    The ensemble rehearses for the performance.
+                                    A Group Photo Shot!
                                 </div>
                             </div>
                         </div>
@@ -450,14 +406,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="Helios6.jpg" class="img-responsive" alt="">
+                        <img src="birkholz-fall2015.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    A French Delight
+                                    Of Love and Triumph
                                 </div>
                                 <div class="project-name">
-                                    The Alto and Tenor Sections practice Byrd's "Sing Joyfully" 
+                                    Birkholz Clan after the Of Love and Triumph Concert. 
                                 </div>
                             </div>
                         </div>
@@ -465,7 +421,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="DSC_1124e.jpg" class="img-responsive" alt="">
+                        <img src="edited_lead_helios.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -480,14 +436,14 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
-                        <img src="Helios1.jpg" class="img-responsive" alt="">
+                        <img src="ryan_jacob_jess.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    A French Delight
+                                    Of Love and Triumph
                                 </div>
                                 <div class="project-name">
-                                    The group warms up for an engaging practice session!
+                                    Ryan, Jacob, and Jess prepare for the upcoming concert!
                                 </div>
                             </div>
                         </div>
@@ -497,12 +453,12 @@
         </div>
     </section>
 
-    <section id="contact" class="bg-light" style="padding-bottom:50px;padding-top:50px;">
+    <section id="join" class="bg-light" style="padding-bottom:50px;padding-top:50px;">
         <div class="container">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Join</h2>
                     <hr>
-                    <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamen Hansen to learn more about joining the group.</p>
+                    <p>Ready to join the Helios Ensemble? That's great! Contact Artistic Director Benjamin Hansen to learn more about joining the group.</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
@@ -510,12 +466,12 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:your-email@your-domain.com" style="color:black">heliosensemble@aol.com</a></p>
+                    <p><a href="mailto:your-email@your-domain.com" style="color:black"> benhansen00@hotmail.com</a></p>
                 </div>
         </div>
     </section>
     
-    <aside class="bg-primary">
+    <section class="bg-primary" id="members">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Member Store Link</h2>
@@ -523,20 +479,48 @@
                 <p> Already a member? Access our Square Store for Music, CDs, and more! </p>
                 <center>
                     <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-light btn-xl" target="_blank">Purchase Music</a>
+                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-light btn-xl" target="_blank">Pay Member Dues & Fees</a>
                     </div>
                 </center>
             </div>
         </div>
-    </aside>
+    </section>
 
-     <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Donate</h2>
-                <hr>
-                <center>
-                <p style="max-width:750px"> Interested in supporting the Helios Ensemble? Please contact Treasurer Jo-Ann Marks at her cell below or access our Square site through the Donate button. Thank you! </p>
+
+
+    <section class="bg-dark" id="support">
+        <div class="container" style="opacity:1.0">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Support Helios</h2>
+                    <hr>
+
+                    <p class="text" style = "text-align:left"><b> The Helios Ensemble </b>, a newcomer to Tucson since 2014, has distinguished itself as a bright addition to our amazing Choral Community. We are a cutting edge Ensemble which takes on challenging music and presents excellent choral results. Our Artistic Director, University of Arizona Doctoral Candidate <b> Benjamin J. Hansen </b> has hired an Assistant Conductor and suggested a Composer in Residence program as well as full orchestral accompaniment all of which enriches the Ensemble and the beautiful music we bring to you. </p>
+
+                    <p class="text" style = "text-align:left">
+                    If you appreciate outstanding choral music that nurtures the singer in all of us as well as new musical conductors and composers, please consider your tax deductible donation to The Helios Ensemble, a 501(c) 3 corporation.
+                    </p>
+
+                    <p class="text" style = "text-align:left">
+                    We offer several ways to support Helios through:
+                    </p>
+
+                    <h4 style="margin-top:30px"> Direct Donations </h4>
+                    <h4> Purchasing Concert Tickets </h4>
+                    <h4 style="margin-bottom:30px"> Purchasing CDs & DVDs</h4>
+
+                    <p class="text" style = "text-align:left; margin-bottom:30px">
+                    You can <b> donate by check </b> made out to Helios and sent to Jo-Ann Marks, 11111 E Pantano Trail, Tucson, AZ 85730, or through our Square store, linked below: </p>
+
+                    <center>
+                    <div class="input-group">
+                            <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Donate through Square</a>
+                    </div>
+                    </center>
+
+                    <p class = "text" style = "text-align:left; margin-top:30px"> If you have any questions, please contact the Helios Ensemble Treasurer, Jo-Ann Marks, at the contact below.</p>
+
+                    <center>
                     <div class = "row">
                         <div class="col-lg-4 col-lg-offset-2 text-center">
                             <i class="fa fa-phone fa-3x wow bounceIn"></i>
@@ -547,15 +531,11 @@
                             <p><a href="mailto:your-email@your-domain.com" style="color:white">heliosensemble@aol.com</a></p>
                         </div>
                     </div>
-                    <div class="input-group">
-                        <a href="http://squareup.com/market/heliosensemble" class="btn btn-primary btn-xl" target="_blank">Donate</a>
-                    </div>
-                </center>
-
+                    </center>
+                </div>
             </div>
         </div>
-    </aside>
-
+    </section>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
