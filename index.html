@@ -47,7 +47,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    
+
                     <li>
                         <a class="page-scroll" href="#concerts">Upcoming Concerts</a>
                     </li>
@@ -55,7 +55,7 @@
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
-                    
+
                     <li>
                         <a class="page-scroll" href="#listen">Listen</a>
                     </li>
@@ -89,7 +89,7 @@
         </div>
     </header>
 
-    
+
 
 
     <section class="bg-dark" id = "concerts">
@@ -99,18 +99,20 @@
             </div>
         </div>
 
+        <img src="Shakespeare-poster-final.jpg" style = "max-width:50%" class="poster"/>
+
         <div class = "row">
             <center>
                 <h2 class="section-heading" style="font-size:40px;margin-bottom:40px;margin-top:40px">Concert Dates </h2>
 
                 <h2 class="text" style = "margin-bottom:15px">
-                Saturday, April 23rd, 7:00 p.m. 
+                Saturday, April 23rd, 7:00 p.m.
                 </h2>
                 <h3 class="text" style = "margin-bottom:30px">
                 Good Shepherd United Church of Christ, 17750 S La Canada Dr., Sahuarita
                 </h3>
                 <h2 class="text" style = "margin-bottom:15px">
-                Sunday, April 24th, 3:00 p.m. 
+                Sunday, April 24th, 3:00 p.m.
                 </h2>
                 <h3 class="text" style = "margin-bottom:30px">
                 Catalina United Methodist Church, 2700 E Speedway Blvd, Tucson
@@ -138,7 +140,7 @@
         </div>
     </section>
 
-        
+
 
     <section id="listen">
         <div class="container">
@@ -163,7 +165,7 @@
                   <div class="thumb"><img src="https://img.youtube.com/vi/gZnekNON394/0.jpg"></div>
                   <div class="desc"> Go Lovely Rose by Eric Whitacre </div>
                 </div>
-                
+
                 <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/3xbBLc0HOOE?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <div class="thumb"><img src="https://img.youtube.com/vi/3xbBLc0HOOE/0.jpg"></div>
                   <div class="desc">Quonium from Haydn's "Lord Nelson" Mass</div>
@@ -413,7 +415,7 @@
                                     Of Love and Triumph
                                 </div>
                                 <div class="project-name">
-                                    Birkholz Clan after the Of Love and Triumph Concert. 
+                                    Birkholz Clan after the Of Love and Triumph Concert.
                                 </div>
                             </div>
                         </div>
@@ -470,7 +472,7 @@
                 </div>
         </div>
     </section>
-    
+
     <section class="bg-primary" id="members">
         <div class="container text-center">
             <div class="call-to-action">
