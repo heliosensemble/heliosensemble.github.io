@@ -172,6 +172,10 @@ aside {
     }
 }
 
+img {
+    background: url('loading.gif') no-repeat;
+}
+
 header {
     position: relative;
     width: 100%;
