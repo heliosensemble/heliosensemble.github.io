@@ -267,6 +267,15 @@ header .header-content .header-content-inner p {
     }
 }
 
+.listen::after {
+    background-image: url(../sun.jpg);
+    opacity: .5;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .section-heading {
     margin-top: 0;
 }
