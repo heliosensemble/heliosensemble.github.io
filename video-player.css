@@ -43,6 +43,8 @@
     float: left;
     margin: 0;
     padding: 10px;
+    color: #f05f40;
+
 }
 
 .thumb {
@@ -58,14 +60,21 @@
 }
 
 .vid-item .desc {
-    color: #f05f40;
+    text-align: center;
     font-size: 15px;
     margin-top:5px;
 }
 
+.vid-item .desc:hover{
+    color: white;
+}
+
 .vid-item:hover {
-    background: #eee;
+    background: #f05f40;
     cursor: pointer;
+    color: white;
+    border-radius:10px;
+
 }
 
 .arrows {
