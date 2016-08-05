@@ -53,6 +53,7 @@ p {
 
 .bg-primary {
     background-color: #f05f40;
+    opacity:.9;
 }
 
 .bg-dark {
@@ -182,7 +183,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/helios_lighter.jpg);
+    background-image: url(../img/085.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -219,8 +220,8 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
-    text-align: center;
+    padding: 0px;
+    text-align: right;
 }
 
 header .header-content .header-content-inner h1 {
@@ -249,19 +250,18 @@ header .header-content .header-content-inner p {
     header .header-content {
         position: absolute;
         top: 50%;
-        padding: 0 50px;
+        padding: 0px;
         transform: translateY(-50%);
     }
 
     header .header-content .header-content-inner {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 1000px;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
     header .header-content .header-content-inner p {
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 0px;
+        margin-left: 0px;
         max-width: 80%;
         font-size: 18px;
     }
