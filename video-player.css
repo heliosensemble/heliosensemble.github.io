@@ -43,7 +43,7 @@
     float: left;
     margin: 0;
     padding: 10px;
-    color: #f05f40;
+    color: #2D7070;
 
 }
 
@@ -70,7 +70,7 @@
 }
 
 .vid-item:hover {
-    background: #f05f40;
+    background: #2D7070;
     cursor: pointer;
     color: white;
     border-radius:10px;
@@ -85,7 +85,7 @@
 .arrow-left {
     color: #fff;
     position: absolute;
-    background: #f05f40;
+    background: #2D7070;
     padding: 15px;
     left: -25px;
     top: -130px;
@@ -96,7 +96,7 @@
 .arrow-right {
     color: #fff;
     position: absolute;
-    background: #f05f40;
+    background: #2D7070;
     padding: 15px;
     right: -25px;
     top: -130px;

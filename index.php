@@ -198,8 +198,8 @@
 
         <!-- LEFT AND RIGHT ARROWS -->
         <div class="arrows">
-            <div class="arrow-left" style="background-color:#f05f40"><i class="fa fa-chevron-left fa-lg" ></i></div>
-            <div class="arrow-right" style="background-color:#f05f40"><i class="fa fa-chevron-right fa-lg" ></i></div>
+            <div class="arrow-left" style="background-color:#2D7070"><i class="fa fa-chevron-left fa-lg" ></i></div>
+            <div class="arrow-right" style="background-color:#2D7070"><i class="fa fa-chevron-right fa-lg" ></i></div>
         </div>
 
     </div>
@@ -265,7 +265,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <a class="btn btn-xl page-scroll" style="border-color:#f05f40">Upcoming!</a>
+                        <a class="btn btn-xl page-scroll" style="border-color:#2D7070">Upcoming!</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
