@@ -82,6 +82,21 @@ section {
     padding: 100px 0;
 }
 
+.concert-text {
+    height: 100px;
+}
+
+.concert-text-longer {
+    height: 150px;
+}
+
+.vertically-centered-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
 aside {
     padding: 50px 0;
 }
